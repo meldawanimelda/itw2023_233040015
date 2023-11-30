@@ -6,15 +6,132 @@
   <title>Tabel</title>
 </head>
 <body>
-  <table border=1>
+  <table border="1"
+  <tr>
+<td>baris1 kolom1</td>
+<td>baris1 kolom2</td>
+  </tr> 
+  <tr>
+    <td>baris2 kolom2</td>
+    <td>baris2 kolom2</td>
+  </tr>
+  <tr>
+    <td>baris2 kolom 1</td>
+    <td>baris2 kolom2</td>
+  </tr>
+</table>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colspan&rowspan</title>
+</head>
+<body>
+  <table width="30%" border="1">
     <tr>
-      <td>baris1 kolom1</td>
-      <td>baris1 kolom1</td>
+      <td rowspan="5">rowspan =5</td>
+      <td colspan="2">colspan =2</td>
     </tr>
     <tr>
-      <td>baris2 kolom2</td>
-      <td>baris2 kolom2</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
     </tr>
-    </table>
+    <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp</td>
+    </tr>
+    <tr>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+    </tr>
+    <tr>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+    </tr>
+  </table>
+</body>
+</html>
+  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bor,cellsp,cellpad</title>
+</head>
+<body>
+  <table width="30%" border="5" cellspacing="10" cellpadding="15">
+    <tr>
+      <td>abcd</td>
+      <td>def</td>
+    </tr>
+    <tr>
+      <td>ghi</td>
+      <td>jkl</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latiahn 2a Melda</title>
+    <style>
+        table{
+            background-color: lightblue;
+        }
+        td{
+            padding: 10px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <table border="1">
+            <tr>
+                <td align="center" colspan="6" class="bold">Data Mahasiswa</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center" class="bold">No.</td>
+                <td rowspan="2" align="center" class="bold">NRP</td>
+                <td colspan="2" align="center" class="bold">Nama</td>
+                <td rowspan="2" align="center" class="bold">Alamat</td>
+                <td rowspan="2" align="center" class="bold">No.Hp</td>
+            </tr>
+            <tr>
+                <td align="center" class="bold">Nama depan</td>
+                <td align="center" class="bold">Nama Belakang</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>113040001</td>
+                <td>Elio</td>
+                <td>Auriga</td>
+                <td>Jakarta</td>
+                <td>081234567890</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">113040011</td>
+                <td rowspan="2">Dago</td>
+                <td rowspan="2">Kalingga</td>
+                <td rowspan="2">Bandung</td>
+                <td>08127127127</td>
+            </tr>
+            <tr>
+                <td>081392482222</td>
+            </tr>
+        </table>
 </body>
 </html>
