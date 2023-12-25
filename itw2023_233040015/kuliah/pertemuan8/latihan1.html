@@ -16,7 +16,7 @@
       width: 600px;
       height: 600px;
       border: 10px solid black;
-      margin: 100px auto;
+      margin: 500px auto;
       background-color: violet;
       display: flex;
       justify-content: space-evenly;
@@ -30,11 +30,18 @@
       border: 5px solid black;
     }
   </style>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <body>
     <div class="container">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
+      <div class="box"data-aos="fade-up"></div>
+      <div class="box"data-aos="fade-up"data-aos-delay='500'></div>
+      <div class="box"data-aos="fade-up"data-aos-delay='100'></div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
